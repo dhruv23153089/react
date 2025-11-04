@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the document and React root fill the viewport so Tailwind's h-screen/min-h-screen work as expected */
+html, body, #root {
+	height: 100%;
+}
+
+/* Optional: remove default body margin to avoid small gaps */
+body {
+	margin: 0;
+}
+
