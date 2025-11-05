@@ -1,16 +1,44 @@
-# React + Vite
+# React + Vite Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, fast, and customizable **Password Generator App** built using **React** and **Vite**.  
+Users can easily generate strong passwords with adjustable length, and options to include **numbers**, **symbols**, and **uppercase letters**.  
+You can also **copy the password** instantly with a single click!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## React Compiler
+- 🎚️ **Adjustable Password Length** — Choose password length dynamically with a range slider.  
+- 🔢 **Include Numbers** — Toggle to include or exclude numeric characters.  
+- 🔣 **Include Symbols** — Add special characters for stronger passwords.  
+- 🔡 **Include Uppercase Letters** — Optional uppercase letters for more variation.  
+- 📋 **Copy to Clipboard** — Quickly copy the generated password.  
+- ⚡ **Built with Vite** for lightning-fast development and bundling.  
+- 🪝 Uses modern **React Hooks** (`useCallback`, `useRef`, `useEffect`).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Hooks Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## `useState`
+- Stores app states: password length, include options, and the generated password.
+
+## `useCallback`
+- Used for **generating passwords** and **copying to clipboard** efficiently.  
+- Prevents unnecessary re-rendering.
+
+## `useRef`
+- Provides direct access to the input field for copying the password.
+
+## `useEffect`
+- Regenerates the password automatically whenever customization options change.
+
+---
+
+## 🧩 Tech Stack
+
+- ⚛️ **React**  
+- ⚡ **Vite**  
+- 🎨 **Tailwind CSS** (for UI styling, optional)  
+- 🧵 **React Hooks**
+
