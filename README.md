@@ -6,17 +6,18 @@ Each project focuses on understanding a specific React concept — from componen
 
 #Tech Stack
 
-React.js (with Vite / CRA)
-JavaScript (ES6+)
-Tailwind CSS / CSS3 for styling
-React Hooks (useState, useEffect, useRef, useCallback, etc.)
-Git & GitHub for version control
+1.React.js (with Vite / CRA).
+2.JavaScript (ES6+).
+3.Tailwind CSS / CSS3 for styling.
+4.React Hooks (useState, useEffect, useRef, useCallback, etc.).
+5.Git & GitHub for version control.
 
 #Learning Goals
 
-Build practical understanding of React fundamentals.
-Get hands-on experience with hooks and components.
-Practice debugging and clean code structure.
-Prepare for advanced React topics like Context API, Redux, and performance optimization.
+1.Build practical understanding of React fundamentals.
+2.Get hands-on experience with hooks and components.
+3.Practice debugging and clean code structure.
+4.Prepare for advanced React topics like Context API, Redux, and performance optimization.
+
 
 
