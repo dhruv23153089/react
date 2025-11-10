@@ -2,7 +2,7 @@
 
 A simple, fast, and customizable **Password Generator App** built using **React** and **Vite**.  
 Users can easily generate strong passwords with adjustable length, and options to include **numbers**, **symbols**, and **uppercase letters**.  
-You can also **copy the password** instantly with a single click!
+You can also **copy the password** instantly with a single click.
 
 ---
 
